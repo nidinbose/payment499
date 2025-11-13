@@ -21,7 +21,7 @@ export default function PaymentPage() {
       const response = await fetch('/api/create-order', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.trim(), amount: 9900 }),
+        body: JSON.stringify({ name: name.trim(), amount: 49900 }),
       });
 
       const data = await response.json();
@@ -133,7 +133,7 @@ export default function PaymentPage() {
           <div className="bg-gradient-to-r from-blue-500 to-blue-900/20 rounded-lg p-4 border border-blue-500/30">
             <div className="flex justify-between items-center">
               <span className="text-gray-100">Amount to pay:</span>
-              <span className="text-2xl font-bold text-yellow-400">₹99</span>
+              <span className="text-2xl font-bold text-yellow-400">₹499</span>
             </div>
           </div>
 
@@ -176,7 +176,7 @@ export default function PaymentPage() {
                     d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
                   />
                 </svg>
-                Pay ₹99 Now
+                Pay ₹499 Now
               </>
             )}
           </button>

@@ -46,7 +46,7 @@ export default function SuccessPage() {
         <div className="bg-blue-500/10 rounded-lg p-4 mb-6 border border-blue-400/20">
           <div className="flex justify-between items-center mb-2">
             <span className="text-blue-100">Amount Paid:</span>
-            <span className="text-xl font-bold text-blue-300">₹99.00</span>
+            <span className="text-xl font-bold text-blue-300">₹499.00</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="text-blue-100">Status:</span>

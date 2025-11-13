@@ -33,7 +33,7 @@ export default function Home() {
               onClick={() => router.push('/payment')}
               className="bg-gradient-to-r from-white to-white hover:from-blue-500 hover:to-blue-800 text-blue-900 hover:text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2 md:gap-3 text-sm md:text-lg"
             >
-              <span className="text-lg md:text-2xl">₹99</span>
+              <span className="text-lg md:text-2xl">₹499</span>
               <span>Join Masterclass</span>
             </button>
           </div>

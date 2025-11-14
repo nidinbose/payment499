@@ -107,7 +107,7 @@ export default function Home() {
               </thead>
               <tbody>
                 <TableRow feature="Duration" details="Just 2 Hours (Intense & Actionable)" />
-                <TableRow feature="Date & Time" details="21/10/2025 - Live Online Session" />
+                <TableRow feature="Date & Time" details="29/11/2025,30/11/2025 - Live Online Session - 8:pm" />
                 <TableRow feature="Format" details="Live Online Session (Recording provided)" />
                 <TableRow feature="Bonus" details="&#34;Momentum Activation&#34; Workbook & Checklist" />
               </tbody>

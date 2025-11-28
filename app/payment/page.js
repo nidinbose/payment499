@@ -97,7 +97,7 @@ export default function PaymentPage() {
         <div className="text-center">
           <div className="w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
             <svg
-              className="w-8 h-8 text-black"
+              className="w-8 h-8 text-black text-black"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
